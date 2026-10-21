@@ -7,7 +7,7 @@ HOME_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 BUILDER_META="$HOME_DIR/meta-info.json"
 
 SKILL_DIR=""
-for base in .agents/skills .claude/skills .comate/skills; do
+for base in .agents/skills .claude/skills; do
   cand="$MOD_DIR/$base/autodev-$MOD_NAME"
   [ -f "$cand/SKILL.md" ] && { SKILL_DIR="$cand"; break; }
 done
