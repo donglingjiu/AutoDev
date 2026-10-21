@@ -23,7 +23,7 @@
     mkdir -p ~/.agents/skills
     cp -r <本目录> ~/.agents/skills/autodev
 
-（Claude Code 用 ~/.claude/skills，Comate 用 ~/.comate/skills）
+（Claude Code 用 ~/.claude/skills）
 
 ## 调用
 
